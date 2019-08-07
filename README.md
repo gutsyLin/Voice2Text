@@ -1,2 +1,1 @@
-# Voice2Text
-voice to text by using baidu-aip
+﻿# Voice2Text使用方法：- 安装requirement.txt对应python库- 注册百度开发者，创建一个带有语音识别功能的应用，将得到的app_id, app_key, secret_key 填入baidu.py 对应变量- 运行 python record.py 开始录音，按回车键结束，语音不能超过60秒- 运行 python baidu.py 控制台打印响应信息，result为识别结果实现总结:- 使用pyaudio录制wav格式语音- 直接将录制wav语音传送给API无法正常识别，因此把wav格式语音用ffmpeg转换为标准的16000HZ的pcm语音- 调用百度语音识别API

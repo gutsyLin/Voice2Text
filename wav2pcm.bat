@@ -1,1 +1,0 @@
-ffmpeg -y  -i test.wav  -acodec pcm_s16le -f s16le -ac 1 -ar 16000 test.pcm
